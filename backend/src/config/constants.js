@@ -1,0 +1,1 @@
+export const DB_NAME = "19bft007_db_user"

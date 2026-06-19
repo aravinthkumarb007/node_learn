@@ -1,0 +1,26 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Node learning",
+  "homepage": "https://github.com/aravinthkumarb007/node_learn#readme",
+  "bugs": {
+    "url": "https://github.com/aravinthkumarb007/node_learn/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aravinthkumarb007/node_learn.git"
+  },
+  "license": "ISC",
+  "author": "akb",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start":"node src/index.js",
+    "dev":  "nodemon src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.7.1"
+  }
+}
